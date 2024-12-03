@@ -7,6 +7,6 @@ The ISO includes:
   1. Official FreeBSD DISC.
   2. Intel/AMD GPU drivers matched with Linux LTS 6.1.
   3. GNOME Desktop.
-  4. Fireofx/Chromium/LibreOffice preinstalled.
+  4. Fireofx/Chromium preinstalled.
      
 If you have other requirements, please let me know.
