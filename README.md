@@ -10,3 +10,7 @@ The ISO includes:
   4. Fireofx/Chromium preinstalled.
      
 If you have other requirements, like xfce desktop, mate desktop, etc. Please feel free to publish in "Issues".
+
+To make the USB installer on Linux or FreeBSD:
+1. Plugin a USB disk.
+2. dd if=./FreeBSD-14.1-RELEASE-p6-amd64-Gnome-Desktop.iso of=/dev/sda bs=4M
