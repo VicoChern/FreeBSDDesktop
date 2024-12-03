@@ -9,4 +9,4 @@ The ISO includes:
   3. GNOME Desktop.
   4. Fireofx/Chromium preinstalled.
      
-If you have other requirements, please let me know.
+If you have other requirements, like xfce desktop, mate desktop, etc. Please let me know.
