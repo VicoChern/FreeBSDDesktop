@@ -4,10 +4,11 @@ This repository is for FreeBSD Desktop ISO downloading.
 FreeBSD Foundation doesn't provide desktop ISO officially. If the users want to enable the desktop, it needs user to install libaries and configue it. It is time consuming, and for some begginers, they may struggle in enabling the desktop.This project provides the deskop ISO which is based on the same source base as official FreeBSD DISC ISO.
 
 The ISO includes:
-  1. Official FreeBSD DISC.
+  1. FreeBSD DISC ISO base.
   2. Intel/AMD GPU drivers matched with Linux LTS 6.1.
   3. GNOME Desktop.
   4. Fireofx/Chromium preinstalled.
+  5. No src and ports (To make the ISO as small as possible since github limit single file size < 2GB.)
      
 If you have other requirements, like xfce desktop, mate desktop, etc. Please feel free to publish in "Issues".
 
