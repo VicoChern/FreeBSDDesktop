@@ -3,14 +3,14 @@ This repository is for FreeBSD Desktop ISO downloading.
 
 FreeBSD Foundation doesn't provide desktop ISO officially. If the users want to enable the desktop, it needs user to install libaries and configue it. It is time consuming, and for some begginers, they may struggle in enabling the desktop.This project provides the deskop ISO which is based on the same source base as official FreeBSD DISC ISO.
 
-The multi-desktop ISO includes GNOME, KDE5, XFCE, MATE, LXQT, and Cinnamon, and is splitted to 2 parts:
-  1. Part 1: FreeBSD-14.2-Desktop-RELEASE-amd64.iso-aa
-  2. Part 2: FreeBSD-14.2-Desktop-RELEASE-amd64.iso-ab
+The latest ISO includes GNOME, KDE5, XFCE, MATE, LXQT, and Cinnamon, and is splitted to 2 parts:
+  1. Part A: FreeBSD-14.2-Desktop-RELEASE-amd64.iso-aa
+  2. Part B: FreeBSD-14.2-Desktop-RELEASE-amd64.iso-ab
    
 How to conmbine them to one ISO:
 > cat FreeBSD-14.2-Desktop-RELEASE-amd64.iso-* > FreeBSD-14.2-Desktop-RELEASE-amd64.iso
 
-After files combined, please makesure sha256 value is correct. Only validate it on Intel platforms.
+After files combined, please makesure sha256 value is matched. It only validates Intel platforms (Intel GPU).
 
 The ISO includes:
   1. FreeBSD DISC ISO base.
