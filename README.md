@@ -10,7 +10,7 @@ The multi-desktop ISO includes GNOME, KDE5, XFCE, MATE, LXQT, and Cinnamon, and 
 How to conmbine them to one ISO:
 > cat FreeBSD-14.2-Desktop-RELEASE-amd64.iso-* > FreeBSD-14.2-Desktop-RELEASE-amd64.iso
 
-After files combined, please makesure sha256 value is correct.
+After files combined, please makesure sha256 value is correct. Only validate it on Intel platforms.
 
 The ISO includes:
   1. FreeBSD DISC ISO base.
