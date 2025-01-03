@@ -24,8 +24,8 @@ To make the USB installer on Linux or FreeBSD:
   1. Plugin a USB disk.
   2. Check your USB disk device node. Usually, on Linux, it is /dev/sdX, and on FreeBSD, it is /dev/daX.
   3. For example,
-     1. On Linux:
-     > dd if=./FreeBSD-14.1-RELEASE-p6-amd64-Gnome-Desktop.iso of=/dev/sda bs=4M. (Make sure 'of=xxx' is your USB disk device node)
-     2. On FreeBSD:
-     > dd if=./FreeBSD-14.1-RELEASE-p6-amd64-Gnome-Desktop.iso of=/dev/da0 bs=4M. (Make sure 'of=xxx' is your USB disk device node)
+     1. On Linux: (Make sure 'of=xxx' is your USB disk device node)
+     > dd if=./FreeBSD-14.1-RELEASE-p6-amd64-Gnome-Desktop.iso of=/dev/sda bs=4M.
+     2. On FreeBSD: (Make sure 'of=xxx' is your USB disk device node)
+     > dd if=./FreeBSD-14.1-RELEASE-p6-amd64-Gnome-Desktop.iso of=/dev/da0 bs=4M.
 
