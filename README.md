@@ -10,7 +10,7 @@ The latest ISO includes GNOME, KDE5, XFCE, MATE, LXQT, and Cinnamon, and is spli
 How to conmbine them to one ISO:
 > cat FreeBSD-14.2-Desktop-RELEASE-amd64.iso-* > FreeBSD-14.2-Desktop-RELEASE-amd64.iso
 
-After files combined, please makesure sha256 value is matched. It only validates Intel platforms (Intel GPU).
+After files combined, please makesure sha256 value is matched. It is only validated on Intel platforms (Intel GPU).
 
 The ISO includes:
   1. FreeBSD DISC ISO base.
